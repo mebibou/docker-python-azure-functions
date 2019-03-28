@@ -24,9 +24,6 @@ RUN apt-get update -y && apt-get install -y azure-cli
 # https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-python#create-and-activate-a-virtual-environment
 RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update && apt-get install -y python3.6 python3-venv python3.6-venv
-RUN python3.6 -m venv .env
-RUN rm /bin/sh && ln -s /bin/bash /bin/sh
-RUN source .env/bin/activate
 
 # clean up
 RUN apt-get remove -y curl wget lsb-release software-properties-common
