@@ -1,7 +1,7 @@
 # docker-python-azure-functions
 Docker image containing Python 3.6, .NET and cli packages to deploy on azure
 
-[![Docker Build Status](https://img.shields.io/docker/build/mebibou/docker-python-azure-functions.svg)](https://hub.docker.com/r/mebibou/docker-python-azure-functions/)
+[![Docker Build Status](https://img.shields.io/docker/build/mebibou/python-azure-functions.svg)](https://hub.docker.com/r/mebibou/python-azure-functions/)
 
 This Docker contains:
 
